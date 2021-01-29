@@ -1,0 +1,15 @@
+CREATE TABLE account_group (
+  account_id  INTEGER PRIMARY KEY AUTOINCREMENT,
+  cash_credit NUMBER (13,4) NOT NULL,
+  cash_debit NUMBER (13,4) NOT NULL,
+  commodity_credit NUMBER (13,4) NOT NULL,
+  commodity_debit NUMBER (13,4) NOT NULL,
+  client_credit NUMBER (13,4) NOT NULL,
+  client_debit NUMBER (13,4) NOT NULL,
+  provider_credit NUMBER (13,4) NOT NULL,
+  provider_debit  NUMBER (13,4) NOT NULL,
+  count_credit NUMBER (13,4) NOT NULL,
+  count_debit NUMBER (13,4) NOT NULL
+ 
+)
+
